@@ -1,0 +1,318 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\AB41979\\Desktop\\PlaywrightAutomation\\playwright.config.js",
+    "rootDir": "C:/Users/AB41979/Desktop/PlaywrightAutomation/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1,
+      "totalTime": 8566.701
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "json",
+        {
+          "outputFile": "results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/AB41979/Desktop/PlaywrightAutomation/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/AB41979/Desktop/PlaywrightAutomation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.37.1",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "Demo_APitest.spec.js",
+      "file": "Demo_APitest.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "GET Request",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 478,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "{\n  page: \u001b[33m2\u001b[39m,\n  per_page: \u001b[33m6\u001b[39m,\n  total: \u001b[33m12\u001b[39m,\n  total_pages: \u001b[33m2\u001b[39m,\n  data: [\n    {\n      id: \u001b[33m7\u001b[39m,\n      email: \u001b[32m'michael.lawson@reqres.in'\u001b[39m,\n      first_name: \u001b[32m'Michael'\u001b[39m,\n      last_name: \u001b[32m'Lawson'\u001b[39m,\n      avatar: \u001b[32m'https://reqres.in/img/faces/7-image.jpg'\u001b[39m\n    },\n    {\n      id: \u001b[33m8\u001b[39m,\n      email: \u001b[32m'lindsay.ferguson@reqres.in'\u001b[39m,\n      first_name: \u001b[32m'Lindsay'\u001b[39m,\n      last_name: \u001b[32m'Ferguson'\u001b[39m,\n      avatar: \u001b[32m'https://reqres.in/img/faces/8-image.jpg'\u001b[39m\n    },\n    {\n      id: \u001b[33m9\u001b[39m,\n      email: \u001b[32m'tobias.funke@reqres.in'\u001b[39m,\n      first_name: \u001b[32m'Tobias'\u001b[39m,\n      last_name: \u001b[32m'Funke'\u001b[39m,\n      avatar: \u001b[32m'https://reqres.in/img/faces/9-image.jpg'\u001b[39m\n    },\n    {\n      id: \u001b[33m10\u001b[39m,\n      email: \u001b[32m'byron.fields@reqres.in'\u001b[39m,\n      first_name: \u001b[32m'Byron'\u001b[39m,\n      last_name: \u001b[32m'Fields'\u001b[39m,\n      avatar: \u001b[32m'https://reqres.in/img/faces/10-image.jpg'\u001b[39m\n    },\n    {\n      id: \u001b[33m11\u001b[39m,\n      email: \u001b[32m'george.edwards@reqres.in'\u001b[39m,\n      first_name: \u001b[32m'George'\u001b[39m,\n      last_name: \u001b[32m'Edwards'\u001b[39m,\n      avatar: \u001b[32m'https://reqres.in/img/faces/11-image.jpg'\u001b[39m\n    },\n    {\n      id: \u001b[33m12\u001b[39m,\n      email: \u001b[32m'rachel.howell@reqres.in'\u001b[39m,\n      first_name: \u001b[32m'Rachel'\u001b[39m,\n      last_name: \u001b[32m'Howell'\u001b[39m,\n      avatar: \u001b[32m'https://reqres.in/img/faces/12-image.jpg'\u001b[39m\n    }\n  ],\n  support: {\n    url: \u001b[32m'https://reqres.in/#support-heading'\u001b[39m,\n    text: \u001b[32m'To keep ReqRes free, contributions towards server costs are appreciated!'\u001b[39m\n  }\n}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-10-30T11:04:22.457Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0511ff999fa926fc771a-36517a308c84828bbfb5",
+          "file": "Demo_APitest.spec.js",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "POST Request",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 918,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "{\n  name: \u001b[32m'Automation Ninja'\u001b[39m,\n  job: \u001b[32m'Training'\u001b[39m,\n  id: \u001b[32m'766'\u001b[39m,\n  createdAt: \u001b[32m'2023-10-30T11:04:23.674Z'\u001b[39m\n}\n"
+                    },
+                    {
+                      "text": "UserId: 766\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-10-30T11:04:22.938Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0511ff999fa926fc771a-df622f6ca0c16ca2cdae",
+          "file": "Demo_APitest.spec.js",
+          "line": 11,
+          "column": 1
+        },
+        {
+          "title": "PUT Request",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 931,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "{\n  name: \u001b[32m'Automation Ninja'\u001b[39m,\n  job: \u001b[32m'Innovation'\u001b[39m,\n  updatedAt: \u001b[32m'2023-10-30T11:04:24.602Z'\u001b[39m\n}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-10-30T11:04:23.856Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0511ff999fa926fc771a-9dcf481afcfcc0b78432",
+          "file": "Demo_APitest.spec.js",
+          "line": 25,
+          "column": 1
+        },
+        {
+          "title": "Delete Request",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "failed",
+                  "duration": 919,
+                  "error": {
+                    "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1000\u001b[39m\nReceived: \u001b[31m200\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1000\u001b[39m\nReceived: \u001b[31m200\u001b[39m\n    at C:\\Users\\AB41979\\Desktop\\PlaywrightAutomation\\tests\\Demo_APitest.spec.js:41:31",
+                    "location": {
+                      "file": "C:\\Users\\AB41979\\Desktop\\PlaywrightAutomation\\tests\\Demo_APitest.spec.js",
+                      "column": 31,
+                      "line": 41
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 39 |\u001b[39m     \u001b[90m//expect(response.status()).toBe(200)\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 40 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[36mawait\u001b[39m response\u001b[33m.\u001b[39mstatus())\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 41 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m1000\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 42 |\u001b[39m }) \u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\AB41979\\Desktop\\PlaywrightAutomation\\tests\\Demo_APitest.spec.js",
+                        "column": 31,
+                        "line": 41
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1000\u001b[39m\nReceived: \u001b[31m200\u001b[39m\n\n\u001b[0m \u001b[90m 39 |\u001b[39m     \u001b[90m//expect(response.status()).toBe(200)\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 40 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[36mawait\u001b[39m response\u001b[33m.\u001b[39mstatus())\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 41 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m1000\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 42 |\u001b[39m }) \u001b[0m\n\n\u001b[2m    at C:\\Users\\AB41979\\Desktop\\PlaywrightAutomation\\tests\\Demo_APitest.spec.js:41:31\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "\u001b[33m200\u001b[39m\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-10-30T11:04:24.788Z",
+                  "attachments": [],
+                  "errorLocation": {
+                    "file": "C:\\Users\\AB41979\\Desktop\\PlaywrightAutomation\\tests\\Demo_APitest.spec.js",
+                    "column": 31,
+                    "line": 41
+                  }
+                },
+                {
+                  "workerIndex": 1,
+                  "status": "failed",
+                  "duration": 1032,
+                  "error": {
+                    "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1000\u001b[39m\nReceived: \u001b[31m200\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1000\u001b[39m\nReceived: \u001b[31m200\u001b[39m\n    at C:\\Users\\AB41979\\Desktop\\PlaywrightAutomation\\tests\\Demo_APitest.spec.js:41:31",
+                    "location": {
+                      "file": "C:\\Users\\AB41979\\Desktop\\PlaywrightAutomation\\tests\\Demo_APitest.spec.js",
+                      "column": 31,
+                      "line": 41
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 39 |\u001b[39m     \u001b[90m//expect(response.status()).toBe(200)\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 40 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[36mawait\u001b[39m response\u001b[33m.\u001b[39mstatus())\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 41 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m1000\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 42 |\u001b[39m }) \u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\AB41979\\Desktop\\PlaywrightAutomation\\tests\\Demo_APitest.spec.js",
+                        "column": 31,
+                        "line": 41
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1000\u001b[39m\nReceived: \u001b[31m200\u001b[39m\n\n\u001b[0m \u001b[90m 39 |\u001b[39m     \u001b[90m//expect(response.status()).toBe(200)\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 40 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[36mawait\u001b[39m response\u001b[33m.\u001b[39mstatus())\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 41 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m1000\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 42 |\u001b[39m }) \u001b[0m\n\n\u001b[2m    at C:\\Users\\AB41979\\Desktop\\PlaywrightAutomation\\tests\\Demo_APitest.spec.js:41:31\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "\u001b[33m200\u001b[39m\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 1,
+                  "startTime": "2023-10-30T11:04:26.771Z",
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\AB41979\\Desktop\\PlaywrightAutomation\\test-results\\Demo_APitest-Delete-Request-chromium-retry1\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\AB41979\\Desktop\\PlaywrightAutomation\\tests\\Demo_APitest.spec.js",
+                    "column": 31,
+                    "line": 41
+                  }
+                },
+                {
+                  "workerIndex": 2,
+                  "status": "failed",
+                  "duration": 986,
+                  "error": {
+                    "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1000\u001b[39m\nReceived: \u001b[31m200\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1000\u001b[39m\nReceived: \u001b[31m200\u001b[39m\n    at C:\\Users\\AB41979\\Desktop\\PlaywrightAutomation\\tests\\Demo_APitest.spec.js:41:31",
+                    "location": {
+                      "file": "C:\\Users\\AB41979\\Desktop\\PlaywrightAutomation\\tests\\Demo_APitest.spec.js",
+                      "column": 31,
+                      "line": 41
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 39 |\u001b[39m     \u001b[90m//expect(response.status()).toBe(200)\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 40 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[36mawait\u001b[39m response\u001b[33m.\u001b[39mstatus())\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 41 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m1000\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 42 |\u001b[39m }) \u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\AB41979\\Desktop\\PlaywrightAutomation\\tests\\Demo_APitest.spec.js",
+                        "column": 31,
+                        "line": 41
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1000\u001b[39m\nReceived: \u001b[31m200\u001b[39m\n\n\u001b[0m \u001b[90m 39 |\u001b[39m     \u001b[90m//expect(response.status()).toBe(200)\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 40 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[36mawait\u001b[39m response\u001b[33m.\u001b[39mstatus())\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 41 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m1000\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 42 |\u001b[39m }) \u001b[0m\n\n\u001b[2m    at C:\\Users\\AB41979\\Desktop\\PlaywrightAutomation\\tests\\Demo_APitest.spec.js:41:31\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "\u001b[33m200\u001b[39m\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 2,
+                  "startTime": "2023-10-30T11:04:28.905Z",
+                  "attachments": [],
+                  "errorLocation": {
+                    "file": "C:\\Users\\AB41979\\Desktop\\PlaywrightAutomation\\tests\\Demo_APitest.spec.js",
+                    "column": 31,
+                    "line": 41
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "0511ff999fa926fc771a-0314449f72f591bbbcec",
+          "file": "Demo_APitest.spec.js",
+          "line": 37,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

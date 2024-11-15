@@ -1,0 +1,652 @@
+<testsuites id="" name="" tests="39" failures="10" skipped="0" errors="0" time="950.159264">
+<testsuite name="Demo_assertions.spec.js" timestamp="2023-09-30T16:12:19.217Z" hostname="chromium" tests="1" failures="1" skipped="0" time="38.886" errors="0">
+<testcase name="Assertions Demo" classname="Demo_assertions.spec.js" time="38.886">
+<failure message="Demo_assertions.spec.js:3:1 Assertions Demo" type="FAILURE">
+<![CDATA[  [chromium] › Demo_assertions.spec.js:3:1 › Assertions Demo ───────────────────────────────────────
+
+    Error: Timed out 30000ms waiting for expect(received).toHaveText(expected)
+
+    Expected string: "Kitchen"
+    Received string: "The Kitchen"
+    Call log:
+      - expect.toHaveText with timeout 30000ms
+      - waiting for locator('text=The Kitchen')
+      -   locator resolved to <h1 class="chakra-heading css-dpmy2a">The Kitchen</h1>
+      -   unexpected value "The Kitchen"
+      -   locator resolved to <h1 class="chakra-heading css-dpmy2a">The Kitchen</h1>
+      -   unexpected value "The Kitchen"
+      -   locator resolved to <h1 class="chakra-heading css-dpmy2a">The Kitchen</h1>
+      -   unexpected value "The Kitchen"
+      -   locator resolved to <h1 class="chakra-heading css-dpmy2a">The Kitchen</h1>
+      -   unexpected value "The Kitchen"
+      -   locator resolved to <h1 class="chakra-heading css-dpmy2a">The Kitchen</h1>
+      -   unexpected value "The Kitchen"
+      -   locator resolved to <h1 class="chakra-heading css-dpmy2a">The Kitchen</h1>
+      -   unexpected value "The Kitchen"
+      -   locator resolved to <h1 class="chakra-heading css-dpmy2a">The Kitchen</h1>
+      -   unexpected value "The Kitchen"
+      -   locator resolved to <h1 class="chakra-heading css-dpmy2a">The Kitchen</h1>
+      -   unexpected value "The Kitchen"
+      -   locator resolved to <h1 class="chakra-heading css-dpmy2a">The Kitchen</h1>
+      -   unexpected value "The Kitchen"
+      -   locator resolved to <h1 class="chakra-heading css-dpmy2a">The Kitchen</h1>
+      -   unexpected value "The Kitchen"
+      -   locator resolved to <h1 class="chakra-heading css-dpmy2a">The Kitchen</h1>
+      -   unexpected value "The Kitchen"
+      -   locator resolved to <h1 class="chakra-heading css-dpmy2a">The Kitchen</h1>
+      -   unexpected value "The Kitchen"
+      -   locator resolved to <h1 class="chakra-heading css-dpmy2a">The Kitchen</h1>
+      -   unexpected value "The Kitchen"
+      -   locator resolved to <h1 class="chakra-heading css-dpmy2a">The Kitchen</h1>
+      -   unexpected value "The Kitchen"
+      -   locator resolved to <h1 class="chakra-heading css-dpmy2a">The Kitchen</h1>
+      -   unexpected value "The Kitchen"
+      -   locator resolved to <h1 class="chakra-heading css-dpmy2a">The Kitchen</h1>
+      -   unexpected value "The Kitchen"
+      -   locator resolved to <h1 class="chakra-heading css-dpmy2a">The Kitchen</h1>
+      -   unexpected value "The Kitchen"
+      -   locator resolved to <h1 class="chakra-heading css-dpmy2a">The Kitchen</h1>
+      -   unexpected value "The Kitchen"
+      -   locator resolved to <h1 class="chakra-heading css-dpmy2a">The Kitchen</h1>
+      -   unexpected value "The Kitchen"
+      -   locator resolved to <h1 class="chakra-heading css-dpmy2a">The Kitchen</h1>
+      -   unexpected value "The Kitchen"
+      -   locator resolved to <h1 class="chakra-heading css-dpmy2a">The Kitchen</h1>
+      -   unexpected value "The Kitchen"
+      -   locator resolved to <h1 class="chakra-heading css-dpmy2a">The Kitchen</h1>
+      -   unexpected value "The Kitchen"
+      -   locator resolved to <h1 class="chakra-heading css-dpmy2a">The Kitchen</h1>
+      -   unexpected value "The Kitchen"
+      -   locator resolved to <h1 class="chakra-heading css-dpmy2a">The Kitchen</h1>
+      -   unexpected value "The Kitchen"
+      -   locator resolved to <h1 class="chakra-heading css-dpmy2a">The Kitchen</h1>
+      -   unexpected value "The Kitchen"
+      -   locator resolved to <h1 class="chakra-heading css-dpmy2a">The Kitchen</h1>
+      -   unexpected value "The Kitchen"
+      -   locator resolved to <h1 class="chakra-heading css-dpmy2a">The Kitchen</h1>
+      -   unexpected value "The Kitchen"
+      -   locator resolved to <h1 class="chakra-heading css-dpmy2a">The Kitchen</h1>
+      -   unexpected value "The Kitchen"
+      -   locator resolved to <h1 class="chakra-heading css-dpmy2a">The Kitchen</h1>
+      -   unexpected value "The Kitchen"
+      -   locator resolved to <h1 class="chakra-heading css-dpmy2a">The Kitchen</h1>
+      -   unexpected value "The Kitchen"
+      -   locator resolved to <h1 class="chakra-heading css-dpmy2a">The Kitchen</h1>
+      -   unexpected value "The Kitchen"
+      -   locator resolved to <h1 class="chakra-heading css-dpmy2a">The Kitchen</h1>
+      -   unexpected value "The Kitchen"
+      -   locator resolved to <h1 class="chakra-heading css-dpmy2a">The Kitchen</h1>
+      -   unexpected value "The Kitchen"
+
+
+      24 |
+      25 |     //Text Matchese Value or not
+    > 26 |     await expect(page.locator('text=The Kitchen')).toHaveText('Kitchen')
+         |                                                    ^
+      27 |     await expect(page.locator('text=The Kitchen')).not.toHaveText('Kitchen')
+      28 |     
+      29 |     //Element attribute
+
+        at C:\Users\AB41979\Desktop\PlaywrightAutomation\tests\Demo_assertions.spec.js:26:52
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Demo_assertions-Assertions-Demo-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\Demo_assertions-Assertions-Demo-chromium\test-failed-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Demo_checkBoxes.spec.js" timestamp="2023-09-30T16:12:19.217Z" hostname="chromium" tests="1" failures="1" skipped="0" time="17.804" errors="0">
+<testcase name="Check boxes Demo" classname="Demo_checkBoxes.spec.js" time="17.804">
+<failure message="Demo_checkBoxes.spec.js:4:1 Check boxes Demo" type="FAILURE">
+<![CDATA[  [chromium] › Demo_checkBoxes.spec.js:4:1 › Check boxes Demo ──────────────────────────────────────
+
+    Error: expect: Property 'then' not found.
+
+       9 |
+      10 |     // checking whether checked or not
+    > 11 |     await expect(page.locator('#vfb-6-0').isChecked())
+         |           ^
+      12 |     await page.pause()
+      13 |
+      14 |     //# to uncheck radio button 
+
+        at C:\Users\AB41979\Desktop\PlaywrightAutomation\tests\Demo_checkBoxes.spec.js:11:11
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Demo_checkBoxes-Check-boxes-Demo-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\Demo_checkBoxes-Check-boxes-Demo-chromium\test-failed-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Demo_EnterText.spec.js" timestamp="2023-09-30T16:12:19.217Z" hostname="chromium" tests="1" failures="0" skipped="0" time="876.495" errors="0">
+<testcase name="test" classname="Demo_EnterText.spec.js" time="876.495">
+</testcase>
+</testsuite>
+<testsuite name="Demo_Hooks.spec.js" timestamp="2023-09-30T16:12:19.217Z" hostname="chromium" tests="2" failures="0" skipped="0" time="13.256" errors="0">
+<testcase name="navigation › main navigation1" classname="Demo_Hooks.spec.js" time="6.723">
+<system-out>
+<![CDATA[Testing complete
+]]>
+</system-out>
+</testcase>
+<testcase name="navigation › main navigation2" classname="Demo_Hooks.spec.js" time="6.533">
+<system-out>
+<![CDATA[Testing complete
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Demo_incognito_pristineBrowser.spec.js" timestamp="2023-09-30T16:12:19.217Z" hostname="chromium" tests="1" failures="1" skipped="0" time="0.057" errors="0">
+<testcase name="abc" classname="Demo_incognito_pristineBrowser.spec.js" time="0.057">
+<failure message="Demo_incognito_pristineBrowser.spec.js:3:1 abc" type="FAILURE">
+<![CDATA[  [chromium] › Demo_incognito_pristineBrowser.spec.js:3:1 › abc ────────────────────────────────────
+
+    TypeError: Cannot read properties of undefined (reading 'browser')
+
+       6 |     //const browser = await playwright.firefox.launch();  // Or 'chromium' or 'webkit'.
+       7 |
+    >  8 |     const browser = await playwright.browser.firefox.launch();
+         |                                      ^
+       9 |
+      10 |      // Create a new incognito browser context.
+      11 |     const context = await browser.newContext();
+
+        at C:\Users\AB41979\Desktop\PlaywrightAutomation\tests\Demo_incognito_pristineBrowser.spec.js:8:38
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="Demo_Parallel.spec.js" timestamp="2023-09-30T16:12:19.217Z" hostname="chromium" tests="10" failures="0" skipped="0" time="43.174" errors="0">
+<testcase name="runs in parallel 1" classname="Demo_Parallel.spec.js" time="5.042">
+</testcase>
+<testcase name="runs in parallel 2" classname="Demo_Parallel.spec.js" time="2.191">
+</testcase>
+<testcase name="runs in parallel 3" classname="Demo_Parallel.spec.js" time="4.541">
+</testcase>
+<testcase name="runs in parallel 4" classname="Demo_Parallel.spec.js" time="7.043">
+</testcase>
+<testcase name="runs in parallel 5" classname="Demo_Parallel.spec.js" time="7.04">
+</testcase>
+<testcase name="runs in parallel 6" classname="Demo_Parallel.spec.js" time="5.353">
+</testcase>
+<testcase name="runs in parallel 7" classname="Demo_Parallel.spec.js" time="3.719">
+</testcase>
+<testcase name="runs in parallel 8" classname="Demo_Parallel.spec.js" time="2.315">
+</testcase>
+<testcase name="runs in parallel 9" classname="Demo_Parallel.spec.js" time="2.216">
+</testcase>
+<testcase name="runs in parallel 10" classname="Demo_Parallel.spec.js" time="3.714">
+</testcase>
+</testsuite>
+<testsuite name="Demo_radioButton.spec.js" timestamp="2023-09-30T16:12:19.217Z" hostname="chromium" tests="1" failures="1" skipped="0" time="854.764" errors="0">
+<testcase name="test" classname="Demo_radioButton.spec.js" time="854.764">
+<failure message="Demo_radioButton.spec.js:4:1 test" type="FAILURE">
+<![CDATA[  [chromium] › Demo_radioButton.spec.js:4:1 › test ─────────────────────────────────────────────────
+
+    Error: locator.uncheck: Clicking the checkbox did not change its state
+    =========================== logs ===========================
+    waiting for locator('#vfb-7-1')
+      locator resolved to <input type="radio" id="vfb-7-1" name="webform" value="…/>
+    attempting click action
+      waiting for element to be visible, enabled and stable
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      click action done
+      waiting for scheduled navigations to finish
+      navigations have finished
+    ============================================================
+
+      26 | await page.pause()
+      27 | //# to uncheck radio button 
+    > 28 | await page.locator('#vfb-7-1').uncheck() 
+         |                                ^
+      29 | //await page.close() 
+      30 | //browser.close() 
+      31 |
+
+        at C:\Users\AB41979\Desktop\PlaywrightAutomation\tests\Demo_radioButton.spec.js:28:32
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Demo_radioButton-test-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\Demo_radioButton-test-chromium\test-failed-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Demo_select.spec.js" timestamp="2023-09-30T16:12:19.217Z" hostname="chromium" tests="1" failures="0" skipped="0" time="860.385" errors="0">
+<testcase name="Select Demo" classname="Demo_select.spec.js" time="860.385">
+</testcase>
+</testsuite>
+<testsuite name="example.spec.js" timestamp="2023-09-30T16:12:19.217Z" hostname="chromium" tests="2" failures="0" skipped="0" time="11.578" errors="0">
+<testcase name="has title" classname="example.spec.js" time="7.529">
+</testcase>
+<testcase name="get started link" classname="example.spec.js" time="4.049">
+</testcase>
+</testsuite>
+<testsuite name="recordedTest1.spec.js" timestamp="2023-09-30T16:12:19.217Z" hostname="chromium" tests="2" failures="0" skipped="0" time="20.355" errors="0">
+<testcase name="has title" classname="recordedTest1.spec.js" time="10.636">
+</testcase>
+<testcase name="test" classname="recordedTest1.spec.js" time="9.719">
+</testcase>
+</testsuite>
+<testsuite name="recordedTest2.spec.js" timestamp="2023-09-30T16:12:19.217Z" hostname="chromium" tests="1" failures="1" skipped="0" time="878.244" errors="0">
+<testcase name="test" classname="recordedTest2.spec.js" time="878.244">
+<failure message="recordedTest2.spec.js:4:1 test" type="FAILURE">
+<![CDATA[  [chromium] › recordedTest2.spec.js:4:1 › test ────────────────────────────────────────────────────
+
+    TimeoutError: locator.isChecked: Timeout 60000ms exceeded.
+    =========================== logs ===========================
+    waiting for locator('xpath=persistent')
+    ============================================================
+
+      29 |   //const abc = await page.getByRole('checkbox', { id: 'persistent' }).isChecked();
+      30 |
+    > 31 |   const abc = await page.locator('xpath=persistent').isChecked();
+         |                                                      ^
+      32 |   if (abc) {
+      33 |     //console.log("already check box is checked");
+      34 |     await page.locator('#persistent').uncheck()
+
+        at C:\Users\AB41979\Desktop\PlaywrightAutomation\tests\recordedTest2.spec.js:31:54
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\recordedTest2-test-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\recordedTest2-test-chromium\test-failed-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="sampleCheckBoxes1.spec.js" timestamp="2023-09-30T16:12:19.217Z" hostname="chromium" tests="1" failures="1" skipped="0" time="50.805" errors="0">
+<testcase name="test" classname="sampleCheckBoxes1.spec.js" time="50.805">
+<failure message="sampleCheckBoxes1.spec.js:4:1 test" type="FAILURE">
+<![CDATA[  [chromium] › sampleCheckBoxes1.spec.js:4:1 › test ────────────────────────────────────────────────
+
+    Error: page.waitForSelector: Page closed
+    =========================== logs ===========================
+    waiting for locator('xpath=//input[@id="persistent"]') to be visible
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+      locator resolved to hidden <input checked value="y" id="persistent" type="checkbox…/>
+    ============================================================
+
+      43 |     await page.waitForSelector('xpath=//input[@id="persistent"]').uncheck
+      44 |     await page.waitForTimeout(5000)
+    > 45 |     await page.waitForSelector('xpath=//input[@id="persistent"]').check
+         |                ^
+      46 |     await page.pause()
+      47 |   } else {
+      48 |     
+
+        at C:\Users\AB41979\Desktop\PlaywrightAutomation\tests\sampleCheckBoxes1.spec.js:45:16
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\sampleCheckBoxes1-test-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\sampleCheckBoxes1-test-chromium\test-failed-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="SDP_Application.spec.js" timestamp="2023-09-30T16:12:19.217Z" hostname="chromium" tests="1" failures="1" skipped="0" time="118.94" errors="0">
+<testcase name="SDP Application" classname="SDP_Application.spec.js" time="118.94">
+<failure message="SDP_Application.spec.js:4:1 SDP Application" type="FAILURE">
+<![CDATA[  [chromium] › SDP_Application.spec.js:4:1 › SDP Application ───────────────────────────────────────
+
+    TimeoutError: locator.click: Timeout 60000ms exceeded.
+    =========================== logs ===========================
+    waiting for getByRole('button', { name: 'Yes' })
+      locator resolved to <input value="Yes" type="submit" id="idSIButton9" data-…/>
+    attempting click action
+      waiting for element to be visible, enabled and stable
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      click action done
+      waiting for scheduled navigations to finish
+      navigated to "https://login.microsoftonline.com/kmsi"
+    ============================================================
+
+      13 |   await page.getByPlaceholder('Password').fill('SourGum2020');
+      14 |   await page.getByRole('button', { name: 'Sign in' }).click();
+    > 15 |   await page.getByRole('button', { name: 'Yes' }).click();
+         |                                                   ^
+      16 |
+      17 |   await page.getByText('Selling').nth(1).waitFor('state:visible')
+      18 |   //check page title and url
+
+        at C:\Users\AB41979\Desktop\PlaywrightAutomation\tests\SDP_Application.spec.js:15:51
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="SDP_Application1.spec.js" timestamp="2023-09-30T16:12:19.217Z" hostname="chromium" tests="2" failures="0" skipped="0" time="178.291" errors="0">
+<testcase name="data driven test › SDP Application:1" classname="SDP_Application1.spec.js" time="97.094">
+<system-out>
+<![CDATA[Passed Logged out successfully
+]]>
+</system-out>
+</testcase>
+<testcase name="data driven test › SDP Application:2" classname="SDP_Application1.spec.js" time="81.197">
+<system-out>
+<![CDATA[Passed Logged out successfully
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="SDP_Application2.spec.js" timestamp="2023-09-30T16:12:19.217Z" hostname="chromium" tests="6" failures="3" skipped="0" time="445.243" errors="0">
+<testcase name="data driven test › SDP Application:1" classname="SDP_Application2.spec.js" time="74.427">
+<failure message="SDP_Application2.spec.js:18:9 SDP Application:1" type="FAILURE">
+<![CDATA[  [chromium] › SDP_Application2.spec.js:18:9 › data driven test › SDP Application:1 ────────────────
+
+    TimeoutError: locator.click: Timeout 60000ms exceeded.
+    =========================== logs ===========================
+    waiting for getByRole('button', { name: 'Yes' })
+      locator resolved to <input value="Yes" type="submit" id="idSIButton9" data-…/>
+    attempting click action
+      waiting for element to be visible, enabled and stable
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      click action done
+      waiting for scheduled navigations to finish
+      navigated to "https://login.microsoftonline.com/kmsi"
+    ============================================================
+
+      26 |           await page.getByPlaceholder('Password').fill(data.passwordkey);
+      27 |           await page.getByRole('button', { name: 'Sign in' }).click();
+    > 28 |           await page.getByRole('button', { name: 'Yes' }).click();
+         |                                                           ^
+      29 |
+      30 |           await page.getByText('Selling').nth(1).waitFor('state:visible')
+      31 |           //check page title and url
+
+        at C:\Users\AB41979\Desktop\PlaywrightAutomation\tests\SDP_Application2.spec.js:28:59
+]]>
+</failure>
+</testcase>
+<testcase name="data driven test › SDP Application:2" classname="SDP_Application2.spec.js" time="75.189">
+<failure message="SDP_Application2.spec.js:18:9 SDP Application:2" type="FAILURE">
+<![CDATA[  [chromium] › SDP_Application2.spec.js:18:9 › data driven test › SDP Application:2 ────────────────
+
+    Error: Timed out 30000ms waiting for expect(received).toHaveCount(expected) // deep equality
+
+    Expected: 1
+    Received: 0
+    Call log:
+      - expect.toHaveCount with timeout 30000ms
+      - waiting for getByText('You are now logged out of this site.')
+      -   locator resolved to 0 elements
+      -   unexpected value "0"
+      -   locator resolved to 0 elements
+      -   unexpected value "0"
+      -   locator resolved to 0 elements
+      -   unexpected value "0"
+      -   locator resolved to 0 elements
+      -   unexpected value "0"
+      -   locator resolved to 0 elements
+      -   unexpected value "0"
+      -   locator resolved to 0 elements
+      -   unexpected value "0"
+      -   locator resolved to 0 elements
+      -   unexpected value "0"
+      -   locator resolved to 0 elements
+      -   unexpected value "0"
+      -   locator resolved to 0 elements
+      -   unexpected value "0"
+      -   locator resolved to 0 elements
+      -   unexpected value "0"
+      -   locator resolved to 0 elements
+      -   unexpected value "0"
+      -   locator resolved to 0 elements
+      -   unexpected value "0"
+      -   locator resolved to 0 elements
+      -   unexpected value "0"
+      -   locator resolved to 0 elements
+      -   unexpected value "0"
+      -   locator resolved to 0 elements
+      -   unexpected value "0"
+      -   locator resolved to 0 elements
+      -   unexpected value "0"
+      -   locator resolved to 0 elements
+      -   unexpected value "0"
+      -   locator resolved to 0 elements
+      -   unexpected value "0"
+      -   locator resolved to 0 elements
+      -   unexpected value "0"
+      -   locator resolved to 0 elements
+      -   unexpected value "0"
+      -   locator resolved to 0 elements
+      -   unexpected value "0"
+      -   locator resolved to 0 elements
+      -   unexpected value "0"
+      -   locator resolved to 0 elements
+      -   unexpected value "0"
+      -   locator resolved to 0 elements
+      -   unexpected value "0"
+      -   locator resolved to 0 elements
+      -   unexpected value "0"
+      -   locator resolved to 0 elements
+      -   unexpected value "0"
+      -   locator resolved to 0 elements
+      -   unexpected value "0"
+      -   locator resolved to 0 elements
+      -   unexpected value "0"
+      -   locator resolved to 0 elements
+      -   unexpected value "0"
+      -   locator resolved to 0 elements
+      -   unexpected value "0"
+      -   locator resolved to 0 elements
+      -   unexpected value "0"
+      -   locator resolved to 0 elements
+      -   unexpected value "0"
+      -   locator resolved to 0 elements
+      -   unexpected value "0"
+
+
+      71 |           await page.getByText('Logout').click();
+      72 |
+    > 73 |           await expect(page.getByText('You are now logged out of this site.')).toHaveCount(1);
+         |                                                                                ^
+      74 |
+      75 |         if (await page.getByText('You are now logged out of this site.').isVisible) {
+      76 |             console.log("Passed Logged out successfully")
+
+        at C:\Users\AB41979\Desktop\PlaywrightAutomation\tests\SDP_Application2.spec.js:73:80
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\SDP_Application2-data-driven-test-SDP-Application-2-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\SDP_Application2-data-driven-test-SDP-Application-2-chromium\test-failed-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="data driven test › SDP Application:3" classname="SDP_Application2.spec.js" time="97.883">
+<system-out>
+<![CDATA[Passed Logged out successfully
+]]>
+</system-out>
+</testcase>
+<testcase name="data driven test › SDP Application:4" classname="SDP_Application2.spec.js" time="50.969">
+<system-out>
+<![CDATA[Passed Logged out successfully
+]]>
+</system-out>
+</testcase>
+<testcase name="data driven test › SDP Application:5" classname="SDP_Application2.spec.js" time="74.887">
+<failure message="SDP_Application2.spec.js:18:9 SDP Application:5" type="FAILURE">
+<![CDATA[  [chromium] › SDP_Application2.spec.js:18:9 › data driven test › SDP Application:5 ────────────────
+
+    TimeoutError: locator.click: Timeout 60000ms exceeded.
+    =========================== logs ===========================
+    waiting for getByRole('button', { name: 'Yes' })
+      locator resolved to <input value="Yes" type="submit" id="idSIButton9" data-…/>
+    attempting click action
+      waiting for element to be visible, enabled and stable
+      element is visible, enabled and stable
+      scrolling into view if needed
+      done scrolling
+      performing click action
+      click action done
+      waiting for scheduled navigations to finish
+      navigated to "https://login.microsoftonline.com/kmsi"
+    ============================================================
+
+      26 |           await page.getByPlaceholder('Password').fill(data.passwordkey);
+      27 |           await page.getByRole('button', { name: 'Sign in' }).click();
+    > 28 |           await page.getByRole('button', { name: 'Yes' }).click();
+         |                                                           ^
+      29 |
+      30 |           await page.getByText('Selling').nth(1).waitFor('state:visible')
+      31 |           //check page title and url
+
+        at C:\Users\AB41979\Desktop\PlaywrightAutomation\tests\SDP_Application2.spec.js:28:59
+]]>
+</failure>
+</testcase>
+<testcase name="data driven test › SDP Application:6" classname="SDP_Application2.spec.js" time="71.888">
+<system-out>
+<![CDATA[Passed Logged out successfully
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="SDP_AppParallel-1.spec.js" timestamp="2023-09-30T16:12:19.217Z" hostname="chromium" tests="6" failures="0" skipped="0" time="328.827" errors="0">
+<testcase name="data driven test › SDP Application:1" classname="SDP_AppParallel-1.spec.js" time="59.776">
+<system-out>
+<![CDATA[Passed Logged out successfully
+]]>
+</system-out>
+</testcase>
+<testcase name="data driven test › SDP Application:2" classname="SDP_AppParallel-1.spec.js" time="57.662">
+<system-out>
+<![CDATA[Passed Logged out successfully
+]]>
+</system-out>
+</testcase>
+<testcase name="data driven test › SDP Application:3" classname="SDP_AppParallel-1.spec.js" time="73.065">
+<system-out>
+<![CDATA[Passed Logged out successfully
+]]>
+</system-out>
+</testcase>
+<testcase name="data driven test › SDP Application:4" classname="SDP_AppParallel-1.spec.js" time="45.055">
+<system-out>
+<![CDATA[Passed Logged out successfully
+]]>
+</system-out>
+</testcase>
+<testcase name="data driven test › SDP Application:5" classname="SDP_AppParallel-1.spec.js" time="44.865">
+<system-out>
+<![CDATA[Passed Logged out successfully
+]]>
+</system-out>
+</testcase>
+<testcase name="data driven test › SDP Application:6" classname="SDP_AppParallel-1.spec.js" time="48.404">
+<system-out>
+<![CDATA[Passed Logged out successfully
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
